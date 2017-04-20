@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const mqtt = require('mqtt');
 
 mqtt.connect('mqtt://127.0.0.1:1883');
